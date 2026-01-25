@@ -7,3 +7,5 @@ requests
 selenium
 webdriver-manager
 ipykernel
+reverse_geocoder
+pycountry

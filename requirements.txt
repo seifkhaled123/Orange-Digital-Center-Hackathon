@@ -11,3 +11,5 @@ reverse_geocoder
 pycountry
 scikit-learn
 lxml
+sqlalchemy 
+psycopg2-binary

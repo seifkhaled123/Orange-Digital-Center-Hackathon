@@ -1,31 +1,31 @@
--- 1. CREATE TABLE STATEMENTS
+-- CREATE TABLE STATEMENTS
 
--- Country table (no dependencies)
+-- Country table 
 CREATE TABLE country (
     country_id INT PRIMARY KEY,
     country_name VARCHAR(100) NOT NULL,
     country_code VARCHAR(10) NOT NULL
 );
 
--- State table (no dependencies)
+-- State table 
 CREATE TABLE state (
     state_id INT PRIMARY KEY,
     state VARCHAR(100) NOT NULL
 );
 
--- City table (no dependencies)
+-- City table 
 CREATE TABLE city (
     city_id INT PRIMARY KEY,
     city VARCHAR(100) NOT NULL
 );
 
--- District table (no dependencies)
+-- District table 
 CREATE TABLE district (
     district_id INT PRIMARY KEY,
     district VARCHAR(100) NOT NULL
 );
 
--- Room table (no dependencies)
+-- Room table 
 CREATE TABLE room (
     room_id INT PRIMARY KEY,
     distance_city_center FLOAT,
@@ -81,7 +81,7 @@ CREATE TABLE room_list (
     room_type VARCHAR(50)
 );
 
--- 2. ADD FOREIGN KEY CONSTRAINTS
+--  ADD FOREIGN KEY CONSTRAINTS
 
 -- City metrics foreign keys
 ALTER TABLE city_metrics

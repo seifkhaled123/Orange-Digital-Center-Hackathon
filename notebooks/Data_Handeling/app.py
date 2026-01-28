@@ -6,7 +6,7 @@ import joblib
 # Load the model you trained in Ai_Model.ipynb
 model = joblib.load('listing_model.pkl')
 
-st.title("💰 Smart Price Predictor")
+st.title("Price Predictor by ElMahro2")
 
 with st.form("input_form"):
     col1, col2 = st.columns(2)
